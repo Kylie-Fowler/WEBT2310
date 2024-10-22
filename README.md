@@ -2,10 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kylie Fowler Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <header>
@@ -20,6 +18,7 @@
   </header>
   <main>
     <h1>Welcome </h1>
+    <ing> /baseball(1).png <img>
     <p>This is the home page </p>
   </main>
   <footer>

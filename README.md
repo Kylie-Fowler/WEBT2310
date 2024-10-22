@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pasta</title>
+  <title>Kylie Fowler Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,13 +19,11 @@
     </nav>
   </header>
   <main>
-    <h1>for the love of Pasta</h1>
-    <p>This is a home page for pasta lovers.</p>
-    <img> /images/noodles-1312384_1280.jpg <img> 
-     <p>This is a home page for pasta lovers.</p>
+    <h1>Welcome </h1>
+    <p>This is the home page </p>
   </main>
   <footer>
-    <p>&copy; for the love of pasta 2024</p>
+    <p>&copy; 2023 Our Website</p>
   </footer>
 </body>
 </html>

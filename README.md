@@ -25,7 +25,7 @@
      <p>This is a home page for pasta lovers.</p>
   </main>
   <footer>
-    <p>&copy; 2023 Our Website</p>
+    <p>&copy; for the love of pasta 2024</p>
   </footer>
 </body>
 </html>

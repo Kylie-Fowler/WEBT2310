@@ -21,7 +21,8 @@
   <main>
     <h1>for the love of Pasta</h1>
     <p>This is a home page for pasta lovers.</p>
-    <p>cool<P>
+    <img> /images/noodles-1312384_1280.jpg <img> 
+     <p>This is a home page for pasta lovers.</p>
   </main>
   <footer>
     <p>&copy; 2023 Our Website</p>

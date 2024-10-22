@@ -21,6 +21,7 @@
   <main>
     <h1>for the love of Pasta</h1>
     <p>This is a home page for pasta lovers.</p>
+    <p>cool<P>
   </main>
   <footer>
     <p>&copy; 2023 Our Website</p>

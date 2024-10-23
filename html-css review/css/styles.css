@@ -6,12 +6,12 @@ body {
   background-color: #f4f4f4;
 }
 /* Navigation Styles */
-.nav {
+nav {
   background-color: #333;
   overflow: hidden;
 }
 
-.nav a {
+nav a {
   float: left;
   color: white;
   padding: 14px 16px;
@@ -28,7 +28,7 @@ body {
 }
 
 /* Header Styles */
-.header {
+header {
   background-color: #007BFF;
   color: white;
   padding: 20px;
@@ -38,12 +38,12 @@ body {
 }
 
 /* Main Styles */
-.main {
+main {
   padding: 20px;
 }
 
 /* Footer Styles */
-.footer {
+footer {
   background-color: #007BFF;
   color: white;
   text-align: center;

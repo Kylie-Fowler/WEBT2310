@@ -18,7 +18,8 @@ nav a {
 }
 
 /* Container page */
-nal li a{ display:block
+nal li a{ 
+  display:block;
   width: 80%;
   margin: 20px auto;
   background: rgb(222, 222, 222);

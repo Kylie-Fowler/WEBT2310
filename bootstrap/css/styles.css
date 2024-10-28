@@ -1,0 +1,46 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background: url('../images/header-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Image Thumbnail Styles */
+img-thumbnail {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+img-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}

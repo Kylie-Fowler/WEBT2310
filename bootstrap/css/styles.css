@@ -1,11 +1,47 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
 }
 
+.cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Space between columns */
+}
+
+.col {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.wild-horse {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 10px 0;
+}
+.wild-horse h2 {
+    color: #c26040;
+}
+.wild-horse p {
+    font-size: 16px; /* Font size */
+    color: #555; /* Text color */
+    line-height: 1.5; /* Line height */
+    margin: 80% center; /* Margin around paragraphs */
+    text-align: justify; /* Text alignment */
+}
 /* Header Styles */
 header {
-    background: url('../images/header-bg.jpg') no-repeat center center;
+    background: url('image/stamp2.jpg') no-repeat center center;
     background-size: cover;
     color: white;
 }
@@ -31,16 +67,22 @@ img-thumbnail:hover {
 
 /* Footer Styles */
 footer {
-    background-color: #f8f9fa;
+    background-color: 
+    #c26040;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
     .navbar {
-        text-align: center;
+        color: 
+        text-align center;
     }
 
     .card {
         margin-bottom: 20px;
     }
+
+
+div{
+    color: #c26040;
 }

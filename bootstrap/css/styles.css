@@ -1,26 +1,49 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f4f4f4;
+    margin: 10% ;
+    
+
 }
 
-.cont {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-    gap: 20px; /* Space between columns */
+
+.jumbotron {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
 }
+.cont {
+
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap to the next line */
+        justify-content: space-between; /* Space between columns */
+        padding: 20px;
+    }
 
 .col {
-    background: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+        flex: 1; 
+        min-width: 250px; 
+        max-width: 30%; 
+        padding: 20px;
+        box-sizing: border-box; 
+        background-color: #ffffff; 
+        margin: 10px; 
+        border: 1px solid #ccc; 
+        transition: transform 0.3s; /
 }
+.col:hover {
+    transform: scale(1.05); 
+    
+}
+
+
+
 h1 {
     text-align: center;
-    color: #333;
+    color: white;
 }
 .wild-horse {
     background: white;
@@ -30,7 +53,7 @@ h1 {
     margin: 10px 0;
 }
 .wild-horse h2 {
-    color: #c26040;
+    color: rgb(26, 95, 255);
 }
 .wild-horse p {
     font-size: 16px; /* Font size */
@@ -41,7 +64,7 @@ h1 {
 }
 /* Header Styles */
 header {
-    background: url('image/stamp2.jpg') no-repeat center center;
+   
     background-size: cover;
     color: white;
 }
@@ -49,12 +72,23 @@ header {
 /* Card Styles */
 .card {
     transition: transform 0.2s;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 500px;
+
 }
 
 .card:hover {
     transform: scale(1.05);
 }
-
+/*icons container */
+.icon {
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+}
 /* Image Thumbnail Styles */
 img-thumbnail {
     cursor: pointer;
@@ -68,7 +102,7 @@ img-thumbnail:hover {
 /* Footer Styles */
 footer {
     background-color: 
-    #c26040;
+    #006aff;
 }
 
 /* Responsive Styles */
@@ -84,5 +118,5 @@ footer {
 
 
 div{
-    color: #c26040;
+    color: 006aff;;
 }

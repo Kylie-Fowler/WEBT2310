@@ -12,7 +12,13 @@ body {
     background-size: cover;
     color: white;
     padding: 60px 20px;
-    text-align: center;
+    text-align: center; 
+}
+.jumbotron img {
+    max-width: 100%; 
+    max-height: 100%; 
+    display: block; 
+    margin: 0 auto;
 }
 .cont {
 
@@ -105,11 +111,10 @@ footer {
     #006aff;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
+
     .navbar {
-        color: 
-        text-align center;
+    
+       text-align: center;
     }
 
     .card {
@@ -119,4 +124,40 @@ footer {
 
 div{
     color: 006aff;;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(36, 102, 255); /* Dark background for contrast */
+    color: #ecf0f1; /* Light text color for readability */
+    padding: 20px 0; /* Padding for spacing */
+    text-align: center; /* Center the text */
+    font-family: 'Arial', sans-serif; /* Font family */
+}
+
+footer p {
+    margin: 5px 0; /* Spacing between paragraphs */
+    font-size: 14px; /* Font size */
+}
+
+footer .container {
+    max-width: 1200px; /* Max width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 15px; /* Padding for the container */
+}
+
+footer .row {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center the content */
+}
+
+footer .col-md-12 {
+    flex: 1; /* Allow the column to grow */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    footer p {
+        font-size: 12px; /* Smaller font size on smaller screens */
+    }
 }
